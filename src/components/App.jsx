@@ -21,8 +21,8 @@ const onCheckSuccess = (provider, account, network) =>
 export default () => {
   return (
     <MetamaskChecker
-      account="0xe02af7809C5cC9c80aDAd82C5d4dAa432DD03e90" // account should be selected
-      // network="" network should be selected
+      // account="" // account should be selected
+      // network="" // network should be selected
       onCheckError={onCheckError}
       onCheckSuccess={onCheckSuccess}
       renderChecked={renderChecked}
