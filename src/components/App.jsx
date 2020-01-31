@@ -1,5 +1,5 @@
 import React from 'react'
-import MetamaskChecker from 'react-metamask-checker'
+import MetamaskChecker from '@metamask-checker/react'
 
 import Content from './Content'
 import Err from './Err'
